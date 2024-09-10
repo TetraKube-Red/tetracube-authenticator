@@ -1,4 +1,4 @@
-# tetracube-authenticator
+# TetraCube Authenticator
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
