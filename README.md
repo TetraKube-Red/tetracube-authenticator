@@ -73,3 +73,6 @@ As picocli applications will often require arguments to be passed on the command
 ```shell script
 ./gradlew quarkusDev --quarkus-args='Quarky'
 ```
+
+
+-b 'Smart Igloo' -n smart_igloo -t '10.10.1.211:8081' -a app.tetracube.red -p /home/davies/Projects/jwtPrivateKey.pem -o /home/davies/login.pnge

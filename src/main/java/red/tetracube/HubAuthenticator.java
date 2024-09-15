@@ -69,8 +69,8 @@ public class HubAuthenticator implements Runnable, QuarkusApplication {
         System.out.println("This is  the token generated");
         System.out.println(token);
         try {
-            var apiURI = new URI((usesSSL ? "https" : "http"), hubHost, "", null).toString();
-            var wsURI = new URI((usesSSL ? "wss" : "ws"), hubHost, "", null).toString();
+            var apiURI = String.format("%s://%s", (usesSSL ? "https" : "http"), hubHost);
+            var wsURI = String.format("%s://%s", (usesSSL ? "wss" : "ws"), hubHost);
             var qrCodeContent = new HashMap<String, String>() {
                 {
                     put("auth_token", token);
