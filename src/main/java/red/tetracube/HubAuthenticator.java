@@ -14,7 +14,6 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 
 import java.io.File;
-import java.net.URI;
 import io.quarkus.runtime.QuarkusApplication;
 import io.smallrye.jwt.build.Jwt;
 import jakarta.inject.Inject;
